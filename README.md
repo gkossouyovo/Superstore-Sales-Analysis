@@ -45,27 +45,27 @@ Mon approche s'est découpée en 3 phases techniques :
 Voici les 4 insights majeurs révélés par l'analyse des données :
 
 ### 📈 Insight 1 : Une croissance forte mais saisonnière
-*(Insère ici ton image : 1_evolution_ventes_pro.png)*
+1_evolution_ventes.png
 
 * **Observation :** Le chiffre d'affaires montre une tendance haussière sur 4 ans. On note une saisonnalité marquée avec des pics systématiques en fin d'année (novembre/décembre), suivis d'une chute brutale en janvier/février.
 * **Recommandation Business :** Prévoir les stocks et les campagnes marketing dès octobre pour maximiser le pic de fin d'année, et lancer des promotions agressives en janvier pour lisser la baisse.
 
 ### 🏆 Insight 2 : La dépendance à un "Produit Star"
-*(Insère ici ton image : 2_top_produits_global_pro.png)*
+2_top_produits_global.png
 
 * **Observation :** Le produit *"Canon imageCLASS 2200"* domine largement le classement avec plus de **61.6K €** de CA, soit plus du double du second produit (*Fellowes PB500*, 27.5K €).
 * **Risque identifié :** Une trop grande dépendance à une seule référence technique.
 * **Recommandation Business :** Diversifier l'offre Premium pour ne pas risquer une chute de CA si le Canon imageCLASS est en rupture de stock.
 
 ### 🌍 Insight 3 : Disparité de rentabilité par Région
-*(Insère ici ton image : 3_profit_region_pro.png)*
+3_profit_region.png
 
 * **Observation :** La région **Ouest (West)** est la locomotive du groupe avec **108.4K €** de profit net. À l'inverse, la région **Centrale** est à la traîne avec seulement **39.7K €**, malgré un volume de ventes correct.
 * **Analyse complémentaire (SQL) :** J'ai noté que la catégorie "Meubles" (*Furniture*) dans le Centre a une marge très faible (2.49%), ce qui plomb la rentabilité globale de la zone.
 * **Recommandation Business :** Auditer les coûts logistiques et les remises accordées dans la région Centrale pour redresser la marge.
 
 ### 🔍 Insight 4 : Stratégies différenciées par zone
-*(Insère ici ton image : 4_bonus_top3_region_pro.png)*
+4_top3_region.png
 
 * **Observation :** Les produits leaders ne sont pas les mêmes partout.
     * À l'Est et à l'Ouest, le *Canon imageCLASS* est roi.
